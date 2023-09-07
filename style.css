@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/13/48/beach-1852945_1280.jpg) ;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    color: aqua;
+}
+
+form {
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100% );
+    width: fit-content;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.lang-div, .gender-div {
+    display: inline-block;
+}
+
+
+.lang-div label, .gender-div label {
+    width: auto;
+    margin-right: 20px;
+}
+
+.inputs {
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.radio-check {
+    margin-bottom: 20px;
+    
+}
+
+.btn-container {
+    text-align: center;
+    padding: 20px ;
+}
+.btn-container input {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(200, 230, 239);
+    padding: 10px;
+}
+
+.btn-container input:hover {
+    background-color: rgb(99, 142, 139);
+    color: rgb(21, 95, 115);
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.textarea-div * {
+    vertical-align: middle;
+}
